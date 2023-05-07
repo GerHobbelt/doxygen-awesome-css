@@ -8,9 +8,13 @@
         "darkmode",
         "jothepro",
         "libsl",
+        "npmignore",
+        "npmjs",
         "postversion",
         "titlebar",
         "treeview",
+        "xbbla",
+        "xbbma",
         "xpack"
     ]
 }
