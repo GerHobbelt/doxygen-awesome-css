@@ -9,10 +9,10 @@ This project provides the
 [Doxygen Awesome CSS custom theme](https://jothepro.github.io/doxygen-awesome-css/)
 as an xPack dependency.
 
-The project is hosted on GitHub as
+The open-source project is hosted on GitHub as
 [micro-os-plus/doxygen-awesome-css-xpack](https://github.com/micro-os-plus/doxygen-awesome-css-xpack).
 
-Original README follows.
+The original README follows.
 
 ---
 
