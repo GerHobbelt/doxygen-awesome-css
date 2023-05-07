@@ -1,3 +1,21 @@
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/micro-os-plus/doxygen-awesome-css-xpack)](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/blob/xpack/package.json)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/micro-os-plus/doxygen-awesome-css-xpack)](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/tags/)
+[![npm (scoped)](https://img.shields.io/npm/v/@micro-os-plus/doxygen-awesome-css.svg?color=blue)](https://www.npmjs.com/package/@micro-os-plus/doxygen-awesome-css/)
+[![license](https://img.shields.io/github/license/micro-os-plus/doxygen-awesome-css-xpack)](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/blob/xpack/LICENSE)
+
+# A source library xPack with the Doxygen Awesome CSS custom theme
+
+This project provides the
+[Doxygen Awesome CSS custom theme](https://jothepro.github.io/doxygen-awesome-css/)
+as an xPack dependency.
+
+The project is hosted on GitHub as
+[micro-os-plus/doxygen-awesome-css-xpack](https://github.com/micro-os-plus/doxygen-awesome-css-xpack).
+
+Original README follows.
+
+---
+
 #  Doxygen Awesome
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/jothepro/doxygen-awesome-css)](https://github.com/jothepro/doxygen-awesome-css/releases/latest)
@@ -67,7 +85,7 @@ There is two layout options. Choose one of them and configure Doxygen accordingl
 <div class="tabbed">
 
 - <b class="tab-title">1️⃣ Base Theme </b>
-    Comes with the typical Doxygen titlebar. Optionally the treeview in the sidebar can be enabled. 
+    Comes with the typical Doxygen titlebar. Optionally the treeview in the sidebar can be enabled.
 
     Required files: `doxygen-awesome.css`
 
@@ -98,7 +116,7 @@ There is two layout options. Choose one of them and configure Doxygen accordingl
 
 </div>
 
-**Caution**: 
+**Caution**:
 - This theme is not compatible with the `FULL_SIDEBAR = YES` option provided by Doxygen!
 - `HTML_COLORSTYLE` must be set to `LIGHT` since Doxygen 1.9.5!
 
