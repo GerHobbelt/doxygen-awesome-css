@@ -62,7 +62,8 @@ git submodule add https://github.com/micro-os-plus/doxygen-awesome-css-xpack.git
 
 ## Branches
 
-Apart from the unused `master` branch, there are two active branches:
+In addition to the original `main` branch, there are two
+xPack specific branches:
 
 - `xpack`, with the latest stable version (default)
 - `xpack-develop`, with the current development version
@@ -73,9 +74,16 @@ Pull Requests should be directed to this branch.
 When new releases are published, the `xpack-develop` branch is merged
 into `xpack`.
 
-The original README follows.
+When there are new upstream releases:
+
+- merge into the local `main`
+- merged into `xpack-develop`,
+- test
+- merge into `xpack`
 
 ---
+
+The original README follows.
 
 #  Doxygen Awesome
 
