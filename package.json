@@ -6,8 +6,6 @@
   "scripts": {
     "npm-install": "npm install",
     "npm-pack": "npm pack",
-    "npm-version-patch": "npm version patch",
-    "npm-version-minor": "npm version minor",
     "postversion": "git push origin --all && git push origin --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
