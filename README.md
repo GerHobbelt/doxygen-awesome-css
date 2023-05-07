@@ -1,7 +1,7 @@
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/micro-os-plus/doxygen-awesome-css-xpack)](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/blob/xpack/package.json)
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/micro-os-plus/doxygen-awesome-css-xpack)](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/tags/)
-[![npm (scoped)](https://img.shields.io/npm/v/@micro-os-plus/doxygen-awesome-css.svg?color=blue)](https://www.npmjs.com/package/@micro-os-plus/doxygen-awesome-css/)
-[![license](https://img.shields.io/github/license/micro-os-plus/doxygen-awesome-css-xpack)](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/blob/xpack/LICENSE)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/xpack-3rd-party/doxygen-awesome-css-xpack)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/blob/xpack/package.json)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/xpack-3rd-party/doxygen-awesome-css-xpack)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/tags/)
+[![npm (scoped)](https://img.shields.io/npm/v/@xpack-3rd-party/doxygen-awesome-css.svg?color=blue)](https://www.npmjs.com/package/@xpack-3rd-party/doxygen-awesome-css/)
+[![license](https://img.shields.io/github/license/xpack-3rd-party/doxygen-awesome-css-xpack)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/blob/xpack/LICENSE)
 
 # A source library xPack with the Doxygen Awesome CSS custom theme
 
@@ -10,7 +10,7 @@ This project provides the
 as an xPack dependency.
 
 The open-source project is hosted on GitHub as
-[micro-os-plus/doxygen-awesome-css-xpack](https://github.com/micro-os-plus/doxygen-awesome-css-xpack).
+[xpack-3rd-party/doxygen-awesome-css-xpack](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack).
 
 ## Install
 
@@ -34,16 +34,16 @@ For details please follow the instructions in the
 ### xpm
 
 This package is available as
-[`@micro-os-plus/doxygen-awesome-css`](https://www.npmjs.com/package/@micro-os-plus/doxygen-awesome-css)
+[`@xpack-3rd-party/doxygen-awesome-css`](https://www.npmjs.com/package/@xpack-3rd-party/doxygen-awesome-css)
 from the `npmjs.com` registry:
 
 ```sh
 cd my-project
 xpm init # Unless a package.json is already present
 
-xpm install @micro-os-plus/doxygen-awesome-css@latest
+xpm install @xpack-3rd-party/doxygen-awesome-css@latest
 
-ls -l xpacks/micro-os-plus-doxygen-awesome-css
+ls -l xpacks/xpack-3rd-party-doxygen-awesome-css
 ```
 
 ### Git submodule
@@ -56,8 +56,8 @@ cd my-project
 git init # Unless already a Git project
 mkdir -p xpacks
 
-git submodule add https://github.com/micro-os-plus/doxygen-awesome-css-xpack.git \
-  xpacks/micro-os-plus-doxygen-awesome-css
+git submodule add https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack.git \
+  xpacks/xpack-3rd-party-doxygen-awesome-css
 ```
 
 ## Branches

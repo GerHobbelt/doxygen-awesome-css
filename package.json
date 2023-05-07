@@ -1,5 +1,5 @@
 {
-  "name": "@micro-os-plus/doxygen-awesome-css",
+  "name": "@xpack-3rd-party/doxygen-awesome-css",
   "version": "2.2.0-1-pre",
   "description": "A source xPack with the Doxygen Awesome CSS custom theme",
   "main": "",
@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/micro-os-plus/doxygen-awesome-css-xpack.git"
+    "url": "https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack.git"
   },
   "homepage": "https://jothepro.github.io/doxygen-awesome-css/",
   "bugs": {
-    "url": "https://github.com/micro-os-plus/doxygen-awesome-css-xpack/issues/"
+    "url": "https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/issues/"
   },
   "keywords": [
     "xpack"

@@ -1,7 +1,7 @@
-[![license](https://img.shields.io/github/license/micro-os-plus/doxygen-awesome-css-xpack)](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/blob/xpack/LICENSE)
-[![CI on Push](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/actions/workflows/CI.yml/badge.svg)](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/actions/workflows/CI.yml)
-[![GitHub issues](https://img.shields.io/github/issues/micro-os-plus/doxygen-awesome-css-xpack.svg)](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/issues/)
-[![GitHub pulls](https://img.shields.io/github/issues-pr/micro-os-plus/doxygen-awesome-css-xpack.svg)](https://github.com/micro-os-plus/doxygen-awesome-css-xpack/pulls)
+[![license](https://img.shields.io/github/license/xpack-3rd-party/doxygen-awesome-css-xpack)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/blob/xpack/LICENSE)
+[![CI on Push](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/actions/workflows/CI.yml/badge.svg)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/actions/workflows/CI.yml)
+[![GitHub issues](https://img.shields.io/github/issues/xpack-3rd-party/doxygen-awesome-css-xpack.svg)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/issues/)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/xpack-3rd-party/doxygen-awesome-css-xpack.svg)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/pulls)
 
 # Maintainer info
 
@@ -9,28 +9,28 @@
 
 The project is hosted on GitHub:
 
-- <https://github.com/micro-os-plus/doxygen-awesome-css-xpack.git>
+- <https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack.git>
 
 To clone the stable branch (`xpack`), run the following commands in a
 terminal (on Windows use the _Git Bash_ console):
 
 ```sh
-rm -rf ~/Work/micro-os-plus/doxygen-awesome-css-xpack.git && \
-mkdir -p ~/Work/micro-os-plus && \
+rm -rf ~/Work/xpack-3rd-party/doxygen-awesome-css-xpack.git && \
+mkdir -p ~/Work/xpack-3rd-party && \
 git clone \
-  https://github.com/micro-os-plus/doxygen-awesome-css-xpack.git \
-  ~/Work/micro-os-plus/doxygen-awesome-css-xpack.git
+  https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack.git \
+  ~/Work/xpack-3rd-party/doxygen-awesome-css-xpack.git
 ```
 
 For development purposes, clone the `xpack-develop` branch:
 
 ```sh
-rm -rf ~/Work/micro-os-plus/doxygen-awesome-css-xpack.git && \
-mkdir -p ~/Work/micro-os-plus && \
+rm -rf ~/Work/xpack-3rd-party/doxygen-awesome-css-xpack.git && \
+mkdir -p ~/Work/xpack-3rd-party && \
 git clone \
   --branch xpack-develop \
-  https://github.com/micro-os-plus/doxygen-awesome-css-xpack.git \
-  ~/Work/micro-os-plus/doxygen-awesome-css-xpack.git
+  https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack.git \
+  ~/Work/xpack-3rd-party/doxygen-awesome-css-xpack.git
 ```
 
 ## Prerequisites
@@ -46,7 +46,7 @@ There are no fixed releases.
 
 ### Check Git
 
-In the `micro-os-plus/doxygen-awesome-css-xpack` Git repo:
+In the `xpack-3rd-party/doxygen-awesome-css-xpack` Git repo:
 
 - switch to the `xpack-develop` branch
 - if needed, merge the `xpack` branch
@@ -67,7 +67,7 @@ for example `2.2.0-1-pre`.
 
 Check GitHub issues and pull requests:
 
-- <https://github.com/micro-os-plus/doxygen-awesome-css-xpack/issues/>
+- <https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/issues/>
 
 and fix them; assign them to a milestone (like `2.2.0-1`).
 
@@ -107,7 +107,7 @@ related to the new version.
 
 The version is visible at:
 
-- <https://www.npmjs.com/package/@micro-os-plus/doxygen-awesome-css?activeTab=versions>
+- <https://www.npmjs.com/package/@xpack-3rd-party/doxygen-awesome-css?activeTab=versions>
 
 ### Update the repo
 
@@ -122,6 +122,6 @@ When the package is considered stable:
 
 When the release is considered stable, promote it as `latest`:
 
-- `npm dist-tag ls @micro-os-plus/doxygen-awesome-css`
-- `npm dist-tag add @micro-os-plus/doxygen-awesome-css@2.2.0-1 latest`
-- `npm dist-tag ls @micro-os-plus/doxygen-awesome-css`
+- `npm dist-tag ls @xpack-3rd-party/doxygen-awesome-css`
+- `npm dist-tag add @xpack-3rd-party/doxygen-awesome-css@2.2.0-1 latest`
+- `npm dist-tag ls @xpack-3rd-party/doxygen-awesome-css`
