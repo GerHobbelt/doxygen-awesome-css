@@ -14,7 +14,9 @@ The open-source project is hosted on GitHub as
 
 ## Install
 
-The easiest way to add it to a project is via
+This project is available from the `npmjs.com` registry as the package
+[`@xpack-3rd-party/doxygen-awesome-css`](https://www.npmjs.com/package/@xpack-3rd-party/doxygen-awesome-css),
+and the easiest way to add it to a project is via
 **xpm** or **npm**; it can also be used as any Git project, but for
 this better use the upstream project.
 
@@ -34,9 +36,8 @@ For details please follow the instructions in the
 
 ### xpm
 
-This package is available as
-[`@xpack-3rd-party/doxygen-awesome-css`](https://www.npmjs.com/package/@xpack-3rd-party/doxygen-awesome-css)
-from the `npmjs.com` registry:
+To install this project as a dependency in xPack projects,
+use **xpm**:
 
 ```sh
 cd my-project
@@ -49,7 +50,7 @@ ls -l xpacks/xpack-3rd-party-doxygen-awesome-css
 
 ### npm
 
-The project can also be installed via **npm**:
+To install the project as a dependency in **npm** projects:
 
 ```sh
 cd my-project
