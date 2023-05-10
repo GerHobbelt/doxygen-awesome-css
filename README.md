@@ -3,19 +3,20 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@xpack-3rd-party/doxygen-awesome-css.svg?color=blue)](https://www.npmjs.com/package/@xpack-3rd-party/doxygen-awesome-css/)
 [![license](https://img.shields.io/github/license/xpack-3rd-party/doxygen-awesome-css-xpack)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/blob/xpack/LICENSE)
 
-# A source library xPack with the Doxygen Awesome CSS custom theme
+# An xpm/npm package with the Doxygen Awesome CSS custom theme
 
-This project provides the
+This project provides a convenient way to integrate the
 [Doxygen Awesome CSS custom theme](https://jothepro.github.io/doxygen-awesome-css/)
-as an xPack dependency.
+into the xpm/npm ecosystem, by allowing to install it as a package dependency.
 
 The open-source project is hosted on GitHub as
 [xpack-3rd-party/doxygen-awesome-css-xpack](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack).
 
 ## Install
 
-As a source library xPack, the easiest way to add it to a project is via
-**xpm**, but it can also be used as any Git project, for example as a submodule.
+The easiest way to add it to a project is via
+**xpm** or **npm**; it can also be used as any Git project, but for
+this better use the upstream project.
 
 ### Prerequisites
 
@@ -46,18 +47,17 @@ xpm install @xpack-3rd-party/doxygen-awesome-css@latest
 ls -l xpacks/xpack-3rd-party-doxygen-awesome-css
 ```
 
-### Git submodule
+### npm
 
-If, for any reason, **xpm** is not available, the next recommended
-solution is to link it as a Git submodule below an `xpacks` folder.
+The project can also be installed via **npm**:
 
 ```sh
 cd my-project
-git init # Unless already a Git project
-mkdir -p xpacks
+npm init # Unless a package.json is already present
 
-git submodule add https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack.git \
-  xpacks/xpack-3rd-party-doxygen-awesome-css
+npm install @xpack-3rd-party/doxygen-awesome-css@latest --save-dev
+
+ls -l node_module/@xpack-3rd-party/doxygen-awesome-css
 ```
 
 ## Branches
@@ -76,8 +76,8 @@ into `xpack`.
 
 When there are new upstream releases:
 
-- merge into the local `main`
-- merged into `xpack-develop`,
+- merge upstream `main` into the local `main`
+- merge into `xpack-develop`
 - test
 - merge into `xpack`
 
