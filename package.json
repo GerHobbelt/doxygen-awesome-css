@@ -1,6 +1,6 @@
 {
   "name": "@xpack-3rd-party/doxygen-awesome-css",
-  "version": "2.2.0-1-pre",
+  "version": "2.2.0-1",
   "description": "A source xPack with the Doxygen Awesome CSS custom theme",
   "main": "",
   "scripts": {
