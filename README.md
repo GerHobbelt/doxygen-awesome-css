@@ -77,14 +77,14 @@ into `xpack`.
 
 When there are new upstream releases:
 
-- merge upstream `main` into the local `main`
-- merge into `xpack-develop`
-- test
-- merge into `xpack`
-
----
+- upstream `main` is merged into the local `main`
+- the local `main` is merged into `xpack-develop`
+- the project is tested
+- `xpack-develop` is merged into `xpack`
 
 The original README follows.
+
+---
 
 #  Doxygen Awesome
 
