@@ -42,7 +42,7 @@ A recent [xpm](https://xpack.github.io/xpm/), which is a portable
 
 ### Release schedule
 
-There are no fixed releases.
+There are no fixed releases, the project aims to follow the upstream releases.
 
 ### Check Git
 
@@ -59,7 +59,7 @@ Determine the upstream version (like `2.2.0`)
 
 - <https://github.com/jothepro/doxygen-awesome-css/releases>
 
-and update the`package.json` file; add an extra digit in the
+Update the`package.json` file; add an extra digit in the
 pre-release field, and initially also add `-pre`,
 for example `2.2.0-1-pre`.
 
@@ -85,7 +85,6 @@ related to the new version.
 
 ### Push changes
 
-- reformat the source files that were changed
 - commit and push
 
 ### Publish on the npmjs.com server
