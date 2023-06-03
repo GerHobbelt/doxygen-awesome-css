@@ -1,5 +1,5 @@
 [![license](https://img.shields.io/github/license/xpack-3rd-party/doxygen-awesome-css-xpack)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/blob/xpack/LICENSE)
-[![CI on Push](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/actions/workflows/CI.yml/badge.svg)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/actions/workflows/CI.yml)
+[![CI on Push](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/actions/workflows/ci.yml/badge.svg)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/actions/workflows/ci.yml)
 [![GitHub issues](https://img.shields.io/github/issues/xpack-3rd-party/doxygen-awesome-css-xpack.svg)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/issues/)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/xpack-3rd-party/doxygen-awesome-css-xpack.svg)](https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/pulls)
 
