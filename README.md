@@ -45,7 +45,7 @@ xpm init # Unless a package.json is already present
 
 xpm install @xpack-3rd-party/doxygen-awesome-css@latest
 
-ls -l xpacks/xpack-3rd-party-doxygen-awesome-css
+ls -l xpacks/@xpack-3rd-party/doxygen-awesome-css
 ```
 
 ### npm
