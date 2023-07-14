@@ -13,9 +13,9 @@
     "type": "git",
     "url": "https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack.git"
   },
-  "homepage": "https://jothepro.github.io/doxygen-awesome-css/",
+  "homepage": "https://jothepro.github.io/doxygen-awesome-css",
   "bugs": {
-    "url": "https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/issues/"
+    "url": "https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/issues"
   },
   "keywords": [
     "xpack"
