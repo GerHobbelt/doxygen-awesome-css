@@ -1,7 +1,7 @@
 {
   "name": "@xpack-3rd-party/doxygen-awesome-css",
   "version": "2.2.0-1",
-  "description": "A source xPack with the Doxygen Awesome CSS custom theme",
+  "description": "A source code library with the Doxygen Awesome CSS custom theme",
   "main": "",
   "scripts": {
     "npm-install": "npm install",
