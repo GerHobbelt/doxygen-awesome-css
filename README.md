@@ -67,20 +67,20 @@ In addition to the original `main` branch, there are two
 xPack specific branches:
 
 - `xpack`, with the latest stable version (default)
-- `xpack-develop`, with the current development version
+- `xpack-development`, with the current development version
 
-All development is done in the `xpack-develop` branch, and contributions via
+All development is done in the `xpack-development` branch, and contributions via
 Pull Requests should be directed to this branch.
 
-When new releases are published, the `xpack-develop` branch is merged
+When new releases are published, the `xpack-development` branch is merged
 into `xpack`.
 
 When there are new upstream releases:
 
 - upstream `main` is merged into the local `main`
-- the local `main` is merged into `xpack-develop`
+- the local `main` is merged into `xpack-development`
 - the project is tested
-- `xpack-develop` is merged into `xpack`
+- `xpack-development` is merged into `xpack`
 
 The original README follows.
 
