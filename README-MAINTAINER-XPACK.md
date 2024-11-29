@@ -55,13 +55,21 @@ No need to add a tag here, it'll be added when the release is created.
 
 ### Increase the version
 
-Determine the upstream version (like `2.2.0`)
+Determine the upstream version (like `2.3.4`)
 
 - <https://github.com/jothepro/doxygen-awesome-css/releases>
 
+### Merge upstream
+
+- switch to the `main` branch
+- merge tag `v2.3.4` from `upstream` into `main`
+- push `main` to `origin`
+
+### Update `package.json`
+
 Update the`package.json` file; add an extra digit in the
 pre-release field, and initially also add `-pre`,
-for example `2.2.0-1-pre`.
+for example `2.3.4-1-pre`.
 
 ### Fix possible open issues
 
@@ -69,7 +77,7 @@ Check GitHub issues and pull requests:
 
 - <https://github.com/xpack-3rd-party/doxygen-awesome-css-xpack/issues/>
 
-and fix them; assign them to a milestone (like `2.2.0-1`).
+and fix them; assign them to a milestone (like `2.3.4-1`).
 
 ### Update `README-MAINTAINER-XPACK.md`
 
@@ -80,8 +88,8 @@ related to the new version.
 
 - open the `CHANGELOG-XPACK.md` file
 - check if all previous fixed issues are in
-- add a new entry like _* v2.2.0-1_
-- commit with a message like _prepare v2.2.0-1_
+- add a new entry like _* v2.3.4-1_
+- commit with a message like _prepare v2.3.4-1_
 
 ### Push changes
 
@@ -95,7 +103,7 @@ related to the new version.
   only `package.json`, `README.md`, `LICENSE`, `CHANGELOG-XPACK.md`,
   the `doxygen-awesome-*.js` and `doxygen-custom/*` files;
   possibly adjust `.npmignore`
-- `npm version 2.2.0-1`
+- `npm version 2.3.4-1`
 - push the `xpack-develop` branch to GitHub
 - the `postversion` npm script should also update tags via `git push origin --tags`
 
@@ -122,5 +130,5 @@ When the package is considered stable:
 When the release is considered stable, promote it as `latest`:
 
 - `npm dist-tag ls @xpack-3rd-party/doxygen-awesome-css`
-- `npm dist-tag add @xpack-3rd-party/doxygen-awesome-css@2.2.0-1 latest`
+- `npm dist-tag add @xpack-3rd-party/doxygen-awesome-css@2.3.4-1 latest`
 - `npm dist-tag ls @xpack-3rd-party/doxygen-awesome-css`
